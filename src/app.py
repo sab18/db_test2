@@ -6,7 +6,7 @@ import sqlite3
 
 
 app=dash.Dash(__name__)
-serve=app.server
+server=app.server
 
 app.layout = html.Div(
     [
